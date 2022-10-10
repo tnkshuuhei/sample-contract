@@ -5,7 +5,7 @@ authors = ["tnkshuuhei shuhei46491@gmail.com"]
 edition = "2021"
 
 [dependencies]
-ink_primitives = { version = "3", default-features = false,overflow-checks = false}
+ink_primitives = { version = "3", default-features = false }
 ink_metadata = { version = "3", default-features = false, features = ["derive"], optional = true }
 ink_env = { version = "3", default-features = false }
 ink_storage = { version = "3", default-features = false }
@@ -15,7 +15,7 @@ scale = { package = "parity-scale-codec", version = "3", default-features = fals
 scale-info = { version = "2", default-features = false, features = ["derive"], optional = true }
 
 
-erc20 = {path = "../erc20", default-features = false, features = ["ink-as-dependency"],overflow-checks = false}
+erc20 = {path = "../erc20", default-features = false, features = ["ink-as-dependency"]}
 
 [lib]
 name = "pool"
